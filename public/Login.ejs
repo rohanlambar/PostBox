@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <style>
+       form {
+        border : 1px solid black;
+        padding: 20px;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+       }
+       input {
+        padding: 15px;
+        font-size: 25 px;
+        border-radius: 4px;
+       }
+       button{
+        padding: 15 px;
+        border-radius: 5 px;
+        font-size: 25px;
+       }
+
+    </style>
+</head>
+<body>
+     <form method="POST" action="/user/login">
+        <input type="text" name="username" placeholder="enter your username">
+        <input type="password" name="password" placeholder="enter your password">
+        <button type="submit">Login</button>
+     </form>
+</body>
+</html>

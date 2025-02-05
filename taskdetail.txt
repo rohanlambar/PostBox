@@ -1,0 +1,28 @@
+
+
+Task 4 : User authentication task 
+
+Objective : Implement user registration, login, and authentication using JWT (JSON Web Tokens).
+
+Set Up User Schema
+
+Define a User schema with fields:
+
+username (String, required, unique)
+
+email (String, required, unique)
+
+password (String, required)
+
+role (String, default: "user")
+
+Add timestamps to track when the user was created/updated.
+
+
+instead of storing of password in original from hash it and store it 
+
+
+now perform authentication with jwt 
+
+
+
