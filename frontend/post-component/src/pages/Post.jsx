@@ -8,7 +8,7 @@ const Post = () => {
                
        </div>
        <div className="flex-1 min-h-full min-w-[40%]">
-            <CreatePost/>
+            <CreatePost username='rohan_98'/>
        </div>
        <div className="min-h-full min-w-[30%] ">
 

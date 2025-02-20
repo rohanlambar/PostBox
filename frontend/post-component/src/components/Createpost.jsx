@@ -7,7 +7,7 @@ const CreatePost = ({ username }) => {
   const [preview, setPreview] = useState(null);
   const [description, setDescription] = useState("");
   const [loading, setLoading] = useState(false);
-
+  
   // Handle image selection
   const handleImageChange = (event) => {
     const file = event.target.files[0];
@@ -81,7 +81,7 @@ const CreatePost = ({ username }) => {
               type="file"
               id="fileInput"
               accept="image/*"
-              style={{ display: "none" }}
+              style={{ display: "none"}}
               onChange={handleImageChange}
             />
             {preview ? (
